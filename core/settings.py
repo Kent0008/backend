@@ -183,3 +183,6 @@ SPECTACULAR_SETTINGS = {
     'DESCRIPTION': 'API description',
     'VERSION': '1.0.0',
 }
+
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
