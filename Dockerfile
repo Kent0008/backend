@@ -7,7 +7,7 @@ WORKDIR /app
 
 COPY requirements.txt .
 
-RUN python manage.py collectstatic --noinput
 RUN pip install --upgrade pip && pip install -r requirements.txt
+RUN python manage.py collectstatic --noinput
 
 COPY . .
